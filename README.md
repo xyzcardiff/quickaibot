@@ -1,9 +1,9 @@
 # QuickAIBot
 
-Creates flashcards and quizzes from notes
+Auto-generates social media content calendar
 
 ## 🎯 Inspired By
-Trending topic: **AI Study Assistant**
+Trending topic: **AI Content Calendar**
 
 ## 🚀 Features
 - AI-powered core functionality
@@ -12,9 +12,9 @@ Trending topic: **AI Study Assistant**
 
 ## 🛠 Tech Stack
 - Node.js
-- Express
+- Next.js
 - OpenAI API
-- React
+- Twitter API
 
 ## 📦 Installation
 
@@ -35,4 +35,4 @@ MIT
 
 ---
 *Built automatically by AI Trend App Builder*
-*Date: 2026-03-22*
+*Date: 2026-04-10*
