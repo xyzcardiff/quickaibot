@@ -1,7 +1,7 @@
 {
     "name": "quickaibot",
     "version": "1.0.0",
-    "description": "Creates flashcards and quizzes from notes",
+    "description": "Auto-generates social media content calendar",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
