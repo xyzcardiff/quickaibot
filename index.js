@@ -1,4 +1,4 @@
-// QuickAIBot - Creates flashcards and quizzes from notes
+// QuickAIBot - Auto-generates social media content calendar
 // Built with AI Trend App Builder
 
 const express = require('express');
@@ -10,19 +10,21 @@ app.use(express.json());
 app.get('/', (req, res) => {
     res.json({
         app: 'QuickAIBot',
-        description: 'Creates flashcards and quizzes from notes',
+        description: 'Auto-generates social media content calendar',
         status: 'running',
-        built_at: '2026-03-22 09:00:02'
+        built_at: '2026-04-10 09:00:27'
     });
 });
 
 app.get('/api/trend', (req, res) => {
     res.json({
-        topic: 'AI Study Assistant',
-        keywords: ["education AI","study tool","learning"]
+        topic: 'AI Content Calendar',
+        keywords: ["content AI","social media","scheduler"]
     });
 });
 
+const PORT = process.env.PORT || 3000;
+
 app.listen(PORT, () => {
-    console.log(`QuickAIBot running on port `);
+    console.log(`QuickAIBot running on port ${PORT}`);
 });
